@@ -1,0 +1,39 @@
+
+.nav {
+    border-bottom: 1px solid black;
+  }
+  
+  .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .crumb {
+    display: inline-block;
+  }
+  
+  .crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: ">";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+  }
+.Zutaten{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#retzept{
+    font-size: 2em;
+    color: blueviolet;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#zu{
+    font-size: 1.2em;
+    color: rgb(221, 69, 176);
+    font-weight: bold;
+    margin-top: 20px;
+}
